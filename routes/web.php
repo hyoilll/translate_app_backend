@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/translate', [TranslatorController::class, 'translateText']);
+Route::get('api/translate', [TranslatorController::class, 'translateText']);
