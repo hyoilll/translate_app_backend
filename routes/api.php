@@ -8,4 +8,4 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
 
-Route::get('/translate', [TranslatorController::class, 'translateText']);
+// Route::get('/translate', [TranslatorController::class, 'translateText']);
