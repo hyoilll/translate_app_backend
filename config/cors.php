@@ -32,5 +32,3 @@ return [
     'supports_credentials' => false,
 
 ];
-
-https://translate-app-backend.vercel.app/api/translate?inputLang=EN-US&outputLang=KO&targetText=hello+hyoil
